@@ -1,0 +1,333 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+.buttongradient {
+  border-radius: 0.375rem;
+  background: var(--Linear, linear-gradient(96deg, #d9503d 0%, #f2a11a 100%));
+}
+
+.Cliptext:hover {
+  background: var(--Linear, linear-gradient(96deg, #d9503d 0%, #f2a11a 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.current-page-text {
+  background: var(--Linear, linear-gradient(96deg, #d9503d 0%, #f2a11a 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bgborder {
+  background: #fff;
+  box-shadow: 0px 14px 24px 0px rgba(0, 0, 0, 0.08);
+}
+.background-image {
+  background-image: url("/Home.png");
+  background-size:cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.homeheading {
+  background: var(--Linear, linear-gradient(96deg, #d9503d 0%, #f2a11a 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.homebtn {
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  width: 9.375rem;
+  height: 3.125rem;
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.5rem;
+  background: var(--Linear, linear-gradient(96deg, #d9503d 0%, #f2a11a 100%));
+}
+.homebutton {
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  width: 9.375rem;
+  height: 3.125rem;
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.5rem;
+  border: 1px solid #fff;
+}
+.homelogo {
+  background: #fff;
+  box-shadow: 0px 14px 24px 0px rgba(0, 0, 0, 0.04);
+}
+.chooseh2 {
+  background: var(--Linear, linear-gradient(96deg, #d9503d 0%, #f2a11a 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.safemain {
+  display: inline-flex;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 1.125rem;
+}
+.safepara {
+  color: #646464;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.375rem;
+ 
+}
+.safeheading {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: var(--Linear, linear-gradient(96deg, #d9503d 0%, #f2a11a 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer{
+  padding: 5.3125rem 6.25rem 5.25rem 6.25rem;
+  }
+.footerMain{
+display: flex;
+justify-content: space-between;
+align-items: center;
+ 
+}
+.footerp{
+  color: #FFF;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.footerdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+.footermainlinks{ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 2rem;
+}
+.footerlinks{
+  color: #FFF;font-size: 0.6875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.footerlinksdiv{
+  width: 287px;
+}
+.footericon{
+  display: flex;
+  padding: 0.75rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+border-radius: 0.25rem;
+border: 1px solid var(--neutral-800, #1B212C);
+background: #646464;
+}
+.fottericondiv{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 2rem; 
+}
+.legisH1{
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+  background: var(--Linear, linear-gradient(96deg, #D9503D 0%, #F2A11A 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.legistexth1{
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+background: var(--Linear, linear-gradient(96deg, #D9503D 0%, #F2A11A 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.legistextp{
+  color: #646464;
+font-family: Urbanist;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.Ecirh{
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+
+
+background: var(--Linear, linear-gradient(96deg, #D9503D 0%, #F2A11A 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.Faqh1{
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+background: var(--Linear, linear-gradient(96deg, #D9503D 0%, #F2A11A 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.Faqp{
+  color: #646464;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.dialogh{
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.5rem; /* 233.333% */
+  background: var(--Linear, linear-gradient(96deg, #D9503D 0%, #F2A11A 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.label{
+  color: #02044A;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+.bord{
+  border-radius: 0.5rem;
+border: 1px solid #C4CEE8;
+background: #FFF;
+}
+
+.doilogbtn{
+ display: inline-flex;
+height: 2rem;
+padding: 1.25rem 1.5rem;
+align-items: center;
+gap: 0.625rem;
+flex-shrink: 0;
+  border-radius: 0.25rem;
+background: var(--Linear, linear-gradient(96deg, #D9503D 0%, #F2A11A 100%));
+}
