@@ -9,8 +9,8 @@ const ChooseMe = () => {
           <Image src={'/chooseImg.png'} alt='d' width={432} height={437} />
         </div>
         <div className='w-full md:w-60%'>
-          <h1 className='chooseh2 text-3xl md:text-4xl font-bold'>Why Choose Us</h1>
-          <p className='text-base md:text-lg leading-7 font-500'>
+          <h1 className='chooseh2 text-[3rem] md:text-[3rem] font-[700] leading-normal'>Why Choose Us</h1>
+          <p className='text-[1.25rem] md:text-[1.25rem] leading-[195%] font-[500]'>
             Welcome to SafeSpark, Glasgow&apos;s premier choice for Portable Appliance Testing. Our story is woven into the fabric of this vibrant city, where we&apos;ve been dedicated to enhancing safety standards for electrical appliances. As proud members of the Glasgow community, we&apos;re committed to delivering reliable, professional PAT testing services that safeguard homes and businesses. Continue to learn more about our team, our values, and our journey to ensuring a safer Glasgow, one appliance at a time.
           </p>
         </div>

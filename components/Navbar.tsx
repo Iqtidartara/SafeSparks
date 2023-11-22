@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-[#fffff] bgborder">
-      <Popover className="container mx-auto flex items-center py-3  max-w-[77.5rem] ">
+      <Popover className="container mx-auto flex items-center py-3  max-w-[80rem] ">
         <Image
           src="/Flogo.png"
           width={85}
