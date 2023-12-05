@@ -7,7 +7,7 @@ const EcirAbout = () => {
       <div className="w-full md:py-[100px]">
         <div className="flex flex-col md:flex-row gap-[2.38rem] my-4">
           <div className="flex flex-col gap-[1.25rem] text-center md:text-left md:w-[60%]">
-            <h1 className="legisH1">What is EICR report?</h1>
+            <h1 className="legisH1 text-[1.5rem] md:text-[3rem]">What is EICR report?</h1>
             <p className="text-[#646464] text-[1.5rem] font-medium leading-normal">
               What is the aim of a condition report? The five main aims of a
               condition report are: Record the results of the inspection and
